@@ -1,67 +1,129 @@
 
+/*--------------COLOR SCHEME------------------
+#FEEC9D : Canary
+#FECDE9 : Classic Rose
+#FB86A1 :Tickle Me Pink
+#832644: Dark Raspbery
+#BF5956: Bittersweet Shimmer
+
+--------------------FONTS----------------------
+font-family: "RobotoRegular";
+font-family: "AlexBrushRegular";
+*/
+
 html{
-    font-family: Optima,Segoe,Segoe UI, Candara, Calibri, Arial, sans-serif;
+    font-family: "RobotoRegular", Optima, Arial, sans-serif;
 }
 
-nav{
-    width: 100%;
-    background-color: #FED583;
+h1{
+    font-family: "AlexBrushRegular", Lucida Bright, script, serif;
+    font-size: xxx-large;
 }
 
-.mynav{
-    list-style-type: none;
+h2{
+    font-size: xx-large;
+    font-family: "AlexBrushRegular", Lucida Bright, script, serif;
     margin: 0;
-    padding: 0;
+    padding: 25px;
+    display: block;
+    border-bottom-style: dotted;
+    border-bottom-color: black;
 }
 
-.mynav li{
-    display: inline;
-    padding: 0;
-    margin: 0;
+h3{
+    font-size: x-large;
 }
 
-.mynav li a{
-    display: inline-block;
-    width: 13vw;
-    text-decoration: none;
+h1, h2, h3, h4{
     text-align: center;
-    color: #36362B;
-    height: 5vh;
 }
 
-.mynav li a:hover{
-    background-color: #BF5956;
+p{
+    padding: 20px 20px;
 }
 
+.top-pic{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 40vw;
+}
 
+.side-text{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 60vw;
+    background-color: #FB86A1;
+}
+
+.wrap {
+    margin: 0 auto;
+    width: 60vw;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
 
 header{
-    position: relative;
-    height: 10vh;
+    background: #832644;
 }
 
-.header-image{
-    background: url("../images/leaves-pano.png");
-    background-color: #36362B;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    height: 7vh;
-}
-
-.header-text h1{
-    text-align: center;
-    font-size-adjust: auto;
-    padding:  50px;
-    color: #36362B;
-    background-color:  #FED583;
-    height: 3vh;
+header h1{
+    padding-top: 20px;
+    padding-bottom: 0;
     margin: 0;
 }
 
-img{
-    width: 33%;
-    float: left;
+footer{
+    background: #BF5956;
+    padding: 30px;
 }
 
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    text-align: center;
+    margin: 0;
+}
+
+.hobbies{
+    background: #FEEC9D;
+    
+}
+
+.working{
+    background: #FECDE9;
+}
+
+ul.mynav{
+    margin: 0;
+    display: inline-block;
+    padding: 0;
+    
+}
+
+ul.mynav li{
+    display: inline-block;
+    margin: 0;
+    background: #832644;
+    padding: 0;
+}
+
+ul.mynav li a{
+    text-align: center;
+    display: block;
+    width: 13vw;
+    padding: 30px 0px;
+    text-decoration: none;
+    color: #FEEC9D;
+}
+
+ul.mynav li a:hover{
+    background-color: #FECDE9;
+    color: black;
+}

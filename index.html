@@ -6,13 +6,15 @@
     <meta name="robots" content="noindex,nofollow" />
     <meta charset="utf-8">
    <script src="https://kit.fontawesome.com/b0a0ea17a8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/alex-brush" type="text/css"/>
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/font-of-primalis" type="text/css"/>
     <!--<link rel="stylesheet" href="css/nav.css" />-->
     <link rel="stylesheet" href="css/portal.css" />
     <link rel="stylesheet" href="css/form.css" />
 </head>
 <body>
     <header>
-            <h1><i class="fas fa-paw">Megan's WEB120 Portal</i></h1>
+            <h1><i class="fas fa-paw"> </i>Megan's WEB120 Portal</h1>
      <nav>
         <ul class="mynav">
             <li><a href="index.php" class="selected">Welcome</a></li>
@@ -20,18 +22,30 @@
             <li><a href="aia.php">AIA</a></li>
             <li><a href="flowchart.php">Flowchart/Layout</a></li>
             <li><a href="fp/index.php">Final Project</a></li>
-            <li><a href="contactme.php">Contact Megan</a></li>
+            <li><a href="contact.php">Contact Megan</a></li>
             <li><a href="#">&#9776</a></li>
-        </ul>  
+        </ul>
     </nav>
     </header>
     <main  class="wrapper">
-        <h1>About Megan</h1>
-        <section>
-            <h2> Developer Inspiration &amp; Goals</h2>
-                <p>Insert witty informative text here. Insert concise but descriptive biography here. End with a charming but not trite closure (but dont' forget the call to action! Go go go!).</p>
+         <section class="inspiration">
+            <div class="flex-container">
+                <div class="top-pic">
+                    <picture>
+                        <source srcset="images/lone-leaf-xsmall.png" media="(max-width: 699px)" alt="leaf">
+                        <source srcset="images/carpet-leaves-medium.png" media="(min-width: 700px) and (max-width: 1023px)" alt="leaves and shoes">
+                        <source srcset="images/leaves-feet.png" media="(min-width: 1024px)" alt="fallen leaves">
+                        <img src="images/redyellowflowers.png" alt="flowers">                      
+                    </picture>
+                </div>
+                <div class="side-text">
+                    <h1>About Megan</h1>
+                    <p>Insert witty informative text here. Insert concise but descriptive biography here. End with a charming but not trite closure (but dont' forget the call to action! Go go go!).</p>
+                </div>
+            </div>
         </section>
-        <section>
+        <section class="hobbies">
+            <div class="wrap">
             <h2> Interests &amp; Hobbies </h2>
                 <h3>Games</h3>
                     <p>Blurb about why I enjoy games.</p>
@@ -59,17 +73,20 @@
                 <h3>Coffee</h3>
                     <p>I used to be a barista and also just enjoylearning about coffee as a hobby. I am definitely not an expert but enjoy learning all about it and perfecting my brew ratios and perfect pours.</p>
                 <p>Content about my favorite things in life.</p>
+            </div>
         </section>
-        <section>
-        <h2>Working On</h2>
-        <ul>
-            <li>Python</li>
-            <li>SQL</li>
-            <li>GitHub</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>C#</li>
-        </ul>
+        <section class="working">
+            <div class="wrap">
+                <h2>Working On</h2>
+                <ul>
+                    <li>Python</li>
+                    <li>SQL</li>
+                    <li>GitHub</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>C#</li>
+                </ul>
+            </div>
         </section>
     </main>
     <footer>
