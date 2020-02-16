@@ -11,6 +11,7 @@ font-family: "RobotoRegular";
 font-family: "AlexBrushRegular";
 */
 
+
 nav {
 	 display: block;
 	 position: fixed;
@@ -265,13 +266,11 @@ nav {
 	 transition-duration: 0s;
 }
 
-a:hover{
-    color: #832644;
-}
-
 html{
     font-family: "RobotoRegular", Optima, Arial, sans-serif;
 }
+
+
 
 h1{
     font-family: "AlexBrushRegular", Lucida Bright, script, serif;
@@ -386,7 +385,13 @@ footer{
     background-image: linear-gradient(#FEEC9D, #FECDE9);
 }
 
+.selected{
+    color: white;
+}
 
+.disc div:hover{
+    color: #FEEC9D;
+}
 
 
 
