@@ -1,23 +1,143 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="en">
 <head>
     <title>Megan's WEB120 Portal</title>
-    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="robots" content="noindex,nofollow" />
     <meta charset="utf-8">
    <script src="https://kit.fontawesome.com/b0a0ea17a8.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/nav.css" />
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/alex-brush" type="text/css"/>
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/font-of-primalis" type="text/css"/>
+    <!--<link rel="stylesheet" href="css/nav.css" />-->
     <link rel="stylesheet" href="css/portal.css" />
     <link rel="stylesheet" href="css/form.css" />
+    <!-- navigation code modified from here: Rings Navigation Concept by Bennet Feely https://codepen.io/bennettfeely/pen/qRJOZJ-->
+     
 </head>
 <body>
-<!-- START WRAPPER -->
-<main class="wrapper">
-<header>
-<h1><i class="fas fa-paw">Megan's WEB120 Portal</i></h1>
-</header>
-</main>
+    <header>
+        <nav class="top-right open">
+            <a href="contact.php" class="disc l1">
+                <div>Contact Megan</div>
+            </a>
+            <a href="fp/index.php" class="disc l2">
+                <div>Final Project</div>
+            </a>
+            <a href="flowchart.php" class="disc l3">
+                <div>Flowchart/Layout</div>
+            </a>
+            <a href="aia.php" class="disc l4">
+                <div>AIA</div>
+            </a>
+            <a href="big/index.php" class="disc l5">
+                <div>Big</div>
+            </a>
+            <a href="index.php" class="disc l6">
+                <div>Welcome</div>
+            </a>
+            <a class="disc l7 toggle">
+                &#9776;
+            </a>
+        </nav>
+        <div>
+            <h1><i class="fas fa-paw"> </i>Megan's WEB120 Portal</h1>
+        </div>
+<!--     <nav>
+            <ul class="mynav">
+                <li><a href="index.php" class="selected">Welcome</a></li>
+                <li><a href="big/index.php">Big</a></li>
+                <li><a href="aia.php">AIA</a></li>
+                <li><a href="flowchart.php">Flowchart/Layout</a></li>
+                <li><a href="fp/index.php">Final Project</a></li>
+                <li><a href="contact.php">Contact Megan</a></li>
+                <li><a href="#">&#9776</a></li>
+            </ul>
+        </nav>-->
+        <script>
+            toggle = document.querySelectorAll(".toggle")[0];
+            nav = document.querySelectorAll("nav")[0];
+            toggle_open_text = "&#9776";
+            toggle_close_text = "X";
+
+            toggle.addEventListener(
+                "click",
+                function() {
+                    nav.classList.toggle("open");
+
+                    if (nav.classList.contains("open")) {
+                        toggle.innerHTML = toggle_close_text;
+                    } else {
+                        toggle.innerHTML = toggle_open_text;
+                    }
+                },
+                false
+            );
+
+            setTimeout(function() {
+                nav.classList.toggle("open");
+            }, 800);
+        </script>
+    </header>
+    <main  class="wrapper">
+         <section class="clearfix inspiration">
+                    <picture>
+                        <source srcset="images/lone-leaf-xsmall.png" media="(max-width: 699px)">
+                        <source srcset="images/carpet-leaves-medium.png" media="(min-width: 700px) and (max-width: 1023px)">
+                        <source srcset="images/leaves-feet.png" media="(min-width: 1024px)" >
+                        <img src="images/redyellowflowers.png" alt="flowers or leaves">               
+                    </picture>
+                    <h2>About Megan</h2>
+                    <p>Insert witty informative text here. Insert concise but descriptive biography here. End with a charming but not trite closure (but dont' forget the call to action! Go go go!).</p>
+        </section>
+        <section class="hobbies">
+            <div class="wrap">
+            <h2> Interests &amp; Hobbies </h2>
+                <h3>Games</h3>
+                    <p>Blurb about why I enjoy games.</p>
+                        <h4>Video Games</h4>
+                            <ul>
+                                <li>Horizon Zero Dawn</li>
+                                <li>Tetris</li>
+                                <li>Hyper Light Drifter</li>
+                                <li> Undertale </li>
+                                <li> Mirror's Edge</li>
+                                <li> Fable &amp; Fable 2</li>
+                            </ul>
+                    <h4>Board Games</h4>
+                        <ul>
+                            <li>Flash Point: Fire Rescue</li>
+                            <li>Root</li>
+                            <li>Azul</li>
+                            <li>Love Letter</li>
+                            <li>Monikers</li>
+                        </ul>
+                <h3>Gunpla</h3>
+                    <p>Dangerious hobby I recently stumbled into. I really enjoy the shows as well so far.</p>
+                <h3>Pets</h3>
+                    <p>I have two cats: A black cat who demands constant attention appropriately named Draven and a white splashed with brownish tabby stripes big boi named Cortado, after the coffee drink.</p>
+                <h3>Coffee</h3>
+                    <p>I used to be a barista and also just enjoylearning about coffee as a hobby. I am definitely not an expert but enjoy learning all about it and perfecting my brew ratios and perfect pours.</p>
+                <p>Content about my favorite things in life.</p>
+            </div>
+        </section>
+        <section class="grid-container working">
+            <div class="grid-item wrap">
+                <h2>Working On</h2>
+                <ul>
+                    <li>Python</li>
+                    <li>SQL</li>
+                    <li>GitHub</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>C#</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p><small>&#169; Megan Smith - <time>2020</time> - <a href="http://validator.w3.org/check/referer" target="_blank">Valid HTML</a> ~ <a href="http://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank">Valid CSS</a></small></p>     
+    </footer>
+    
 </body>
-<foot>
-</foot>
+    
 </html>
