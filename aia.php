@@ -30,9 +30,9 @@
                 <h2 class = "user-stories">User Stories</h2>
                 <table id="client-audience" class ="user-stories">
                     <tr>
-                        <th class = "header2 issues">Issues, Concerns, Needs</th>
-                        <th class = "header3 approach">Approach</th>
                         <th class = "header1 audiences">Audiences</th>
+                        <th class = "header3 approach">Approach</th>
+                        <th class = "header2 issues">Issues, Concerns, Needs</th>
                     </tr>
                     <tr>
                         <td class = "audience1 audiences">TestA</td>
