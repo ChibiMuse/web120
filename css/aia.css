@@ -15,12 +15,13 @@ font-family: "AlexBrushRegular";
 
 
 table {
-    border: 2px solid #832644;
+    border: 2px solid white;
     color: #832644;
 }
 
 th, td{
     padding: 20px;
+    border: 2px solid white;
 }
 
 th {
