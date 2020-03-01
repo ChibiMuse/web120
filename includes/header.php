@@ -38,7 +38,7 @@
             <a href="index.php" class="disc l6">
                 <div>Welcome</div>
             </a>
-            END COMMENT OUT NAV--->
+            END COMMENT OUT NAV-->
             <a class="disc l7 toggle">
                 &#9776;
             </a>
