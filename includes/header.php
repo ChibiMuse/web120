@@ -9,12 +9,12 @@
    <script src="https://kit.fontawesome.com/b0a0ea17a8.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/alex-brush" type="text/css"/>
     <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/font-of-primalis" type="text/css"/>
-    <!--<link rel="stylesheet" href="css/nav.css" />-->
+    <link rel="stylesheet" href="css/nav.css" />
     <link rel="stylesheet" href="css/portal.css" />
     <link rel="stylesheet" href="css/form.css" />
     <link rel="stylesheet" href="css/aia.css" />
-    <link rel="stylesheet" href="css/nav.css" />
-    
+    <link rel="stylesheet" href="css/flowchart.css" />  
+
     <!-- navigation code modified from here: Rings Navigation Concept by Bennet Feely https://codepen.io/bennettfeely/pen/qRJOZJ-->
      
 </head>
@@ -41,7 +41,7 @@
             <a href="index.php" class="disc l6">
                 <div>Welcome</div>
             </a>
-            END COMMENT OUT NAV--->
+            END COMMENT OUT NAV-->
             <a class="disc l7 toggle">
                 &#9776;
             </a>
