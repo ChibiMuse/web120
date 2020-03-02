@@ -1,0 +1,35 @@
+
+
+/*--------------COLOR SCHEME------------------
+#FEEC9D : Canary
+#FECDE9 : Classic Rose
+#FB86A1 :Tickle Me Pink
+#832644: Dark Raspbery
+#BF5956: Bittersweet Shimmer
+
+--------------------FONTS----------------------
+font-family: "RobotoRegular";
+font-family: "AlexBrushRegular";
+*/
+
+
+
+table {
+    border: 2px solid white;
+    color: #832644;
+}
+
+th, td{
+    padding: 20px;
+    border: 2px solid white;
+}
+
+th {
+    background-color: #FB86A1;
+    font-size: 2.5vw;
+}
+
+td {
+    background-color: #FECDE9;
+    font-size: 2vw;
+}
