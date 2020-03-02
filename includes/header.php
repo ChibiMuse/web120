@@ -13,7 +13,8 @@
     <link rel="stylesheet" href="css/portal.css" />
     <link rel="stylesheet" href="css/form.css" />
     <link rel="stylesheet" href="css/aia.css" />
-    <link rel="stylesheet" href="css/flowchart.css" />
+    <link rel="stylesheet" href="css/flowchart.css" />  
+
     <!-- navigation code modified from here: Rings Navigation Concept by Bennet Feely https://codepen.io/bennettfeely/pen/qRJOZJ-->
      
 </head>
