@@ -3,7 +3,7 @@
 Eerie Black #22001C
 Rubine Red #CA006E
 Tyrian Purple #73003B
-Mexican Pink #ER0008D
+Mexican Pink #E0008D
 Purple(html) #760065
 
 -------------FONTS----------
@@ -16,7 +16,74 @@ font-family: 'Spartan', sans-serif;
 
 html {
     font-family: 'Spartan', sans-serif;
+    background-color: #F5D0E4;
 }
+
+body {
+    background-color: white;
+    color: #22001C;
+    margin: 0px 100px;
+}
+
+h1 {
+    padding-right: 50px;
+}
+
+h2, h3 {
+    color: #E0008D;
+    text-align: center;
+}
+
+/* Grid */
+
+.wrapper {
+    display: inline-grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 50px);
+    margin: 0;
+}
+
+.header {
+    grid-area: 1 / 1 / 3 / 13;
+    padding: 10px;
+    text-align: right;
+}
+
+.top-nav {
+    grid-area: 3 / 1 / 4 / 13;
+}
+
+.column1 {
+    grid-area: 4 / 3 / 11 / 8;
+    padding: 15px;
+}
+
+.column2 {
+    grid-area: 4 / 8 / 11 / 12;
+    padding: 15px;
+
+}
+
+
+.footer {
+    grid-area: 13 / 1 / auto / 13;
+    padding: 10px;
+    text-align: center;
+    background-color: #73003B;
+    color: white;
+}
+
+footer p a {
+    color: white;
+    text-decoration: none;
+}
+
+footer p a:hover {
+    color: #E0008D;
+    text-decoration: underline;
+}
+
+
 /* Base Styles */
 #cssmenu ul,
 #cssmenu li,
@@ -196,3 +263,4 @@ html {
 #cssmenu .has-sub ul li.last > a {
   border-bottom: 0;
 }}
+
