@@ -21,25 +21,25 @@ define("THIS_PAGE",basename($_SERVER["PHP_SELF"]));
 $logo_color = " ";
 //Place URL & labels in the array for navigation:
 $nav1 = array(
-    "../index.php" => array(" ","WEB120", "fa fas fa-leaf")
+    "../index.php" => array("","WEB120", "fa fas fa-leaf")
     ,
-    "index.php" => array(" ", "BIG", "fa fas fa-cat")
+    "index.php" => array("", "BIG", "fa fas fa-cat")
   ,
-    "flexbox.php" => array(" ", "Flexbox", "fa fa-fw fa-cube")
+    "flexbox.php" => array("", "Flexbox", "fa fa-fw fa-cube")
     ,
-    "galleries.php" => array(" ", "Galleries", "fa fa-fw fa-camera-retro")
+    "galleries.php" => array("", "Galleries", "fa fa-fw fa-camera-retro")
   ,
     "#" => array("has-sub", "Google", "fa fa-fw fa-chevron-down")
   ,
-    "calendar.php" => array(" ", "Calendar", "fa fa-fw fa-calendar")
+    "calendar.php" => array("", "Calendar", "fa fa-fw fa-calendar")
     ,
     "map.php" => array(" ", "map", "fa fa-fw fa-map-o")
   ,
     "youtube.php" => array("last", "YouTube", "fa fa-fw fa-youtube-square")
     ,
-    "sassy.php" => array(" ", "SASS vs CSS", "fa fas fa-crow")
+    "sassy.php" => array("", "SASS vs CSS", "fa fas fa-crow")
   ,
-    "siteapp.php" => array(" ", "Site vs App", "fa fa-fw fa-html5")
+    "siteapp.php" => array("", "Site vs App", "fa fa-fw fa-html5")
   ,
     "webcam.php" => array("last", "Web Cam", "fa fa-fw fa-eye")
 );
@@ -145,7 +145,7 @@ function makeLinks($linkArray)
                 $myReturn .='<li class="active ' . $class . '"><a href="' . $url . '"><span><i class="' . $logo . '"></i>' . $title . '</span></a></li>' . "\n" . '</ul>' . PHP_EOL;
             }
             else {
-            $myReturn .='<li class="active ' . $class . '"><a href="' . $url . '"><span><i class="' . $logo . '"></i>' . $title . '</span></a></li>' . PHP_EOL;
+            $myReturn .='<li class="active' . $class . '"><a href="' . $url . '"><span><i class="' . $logo . '"></i>' . $title . '</span></a></li>' . PHP_EOL;
             }
         }
         else{

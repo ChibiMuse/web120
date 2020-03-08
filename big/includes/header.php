@@ -6,7 +6,7 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="noindex,nofollow" />
-   <title><?$title?></title>
+   <title><?=$title?></title>
    <!--<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
    <script src="script.js"></script>-->
     
@@ -18,13 +18,13 @@
    <div class="wrapper">
 <header class="header">
     <div>
-    <h1 class="page-title"><?$PageID?></h1>
+    <h1 class="page-title"><?=$PageID?></h1>
     </div>
     <label for="show-menu" class="show-menu"> &#9776; <span class="show-tag">Show Menu</span> </label>
     <input type="checkbox" id="show-menu" role="button">
 <nav id="cssmenu" class="top-nav">
   <ul id="menu">
-      <?makeLinks($nav1)?>
+      <?=makeLinks($nav1)?>
      <!--<li><a href="../index.php"><span><i class="fa fas fa-leaf"></i> WEB120</span></a></li>
      <li class = "active"><a href="index.php"><span><i class="fa fas fa-cat"></i> BIG</span></a></li>
      <li><a href="flexbox.php"><span><i classs="fa fa-fw fa-cube"></i> Flexbox</span></a></li>
