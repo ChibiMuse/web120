@@ -45,6 +45,7 @@ $nav1 = array(
 );
 
 
+
 switch(THIS_PAGE){
     case "../index.php":
         $title = "Megan's Web 120 Portal";
@@ -127,22 +128,30 @@ echo makeLinks($nav1); #in which $nav1 is an associative array of links
 function makeLinks($linkArray)
 {
     $myReturn = " ";
+    $count = count($linkArray);
     
     foreach($linkArray as $url => $text)
     {
         $class = $text[0];
         $title = $text[1];
         $logo = $text[2];
+        $count = --$count;
         if ($url == THIS_PAGE)
         {
             if($class == "has-sub")
             {
             //selected page - add class reference
-            $myReturn .='<li class="active ' . $class . '"><a href="' . $url . '"><span><i class="' . $logo . '"></i>' . $title . '</span></a></li>' . "\n\t" . '<ul>' . PHP_EOL;
+            $myReturn .='<li class="active ' . $class . '"><a href="' . $url . '"><span><i class="' . $logo . '"></i>' . $title . '</span></a>' . "\n\t" . '<ul>' . PHP_EOL;
             }
             elseif($class == "last")
             {
+                if($count > 1)
+                {
+                    $myReturn .='<li class="active ' . $class . '"><a href="' . $url . '"><span><i class="' . $logo . '"></i>' . $title . '</span></a></li>' . "\n" . '</ul>'  . "\n\t" . '</li>' . PHP_EOL;
+                }
+                else{
                 $myReturn .='<li class="active ' . $class . '"><a href="' . $url . '"><span><i class="' . $logo . '"></i>' . $title . '</span></a></li>' . "\n" . '</ul>' . PHP_EOL;
+                }
             }
             else {
             $myReturn .='<li class="active' . $class . '"><a href="' . $url . '"><span><i class="' . $logo . '"></i>' . $title . '</span></a></li>' . PHP_EOL;
@@ -152,11 +161,17 @@ function makeLinks($linkArray)
             if($class == "has-sub")
             {
             //selected page - add class reference
-            $myReturn .='<li class="' . $class . '"><a href="' . $url . '"><span><i class="' . $logo . '"></i>' . $title . '</span></a></li>' . "\n\t" . '<ul>' . PHP_EOL;
+            $myReturn .='<li class="' . $class . '"><a href="' . $url . '"><span><i class="' . $logo . '"></i>' . $title . '</span></a>' . "\n\t" . '<ul>' . PHP_EOL;
             }
             elseif($class == "last")
             {
+                if($count > 1)
+                {
+                    $myReturn .='<li class="' . $class . '"><a href="' . $url . '"><span><i class="' . $logo . '"></i>' . $title . '</span></a></li>' . "\n" . '</ul>'  . "\n\t" . '</li>' . PHP_EOL;
+                }
+                else{
                 $myReturn .='<li class="' . $class . '"><a href="' . $url . '"><span><i class="' . $logo . '"></i>' . $title . '</span></a></li>' . "\n" . '</ul>' . PHP_EOL;
+                }
             }
             else {
             $myReturn .='<li class="' . $class . '"><a href="' . $url . '"><span><i class="' . $logo . '"></i>' . $title . '</span></a></li>' . PHP_EOL;
