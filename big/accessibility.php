@@ -1,6 +1,6 @@
 <?php include "includes/header.php";?>
 <section class="column1">
-    <h2> Overview</h2>
+    <h2> No One Left Behind</h2>
     <p><i>"If RD is about designing for the most efficient, pleasurable user experience, accessibility becomes designing for inclusion - leaving no user behind, regardless of the type of device they may be using. It stands to reason that if you acknowledge these are two different-but-related concepts and if you give both equal weight when making design choices, you can bring the best possible user experience equally to everyone.”</i></p>
         <p><a class="main-para" href="https://www.boia.org/blog/responsive-design-and-accessibility">Bureau of Internet Accessibility on Responsive Design and Accesibility</a></p>
     <h2>Overview</h2>
@@ -34,19 +34,18 @@
     <h3> Sources</h3>
     <div class="resources">
         <ul class="sources">
-            <li>Aigars. “28 Top Gallery HTML5 Website Templates 2020.” Colorlib, 19 Feb. 2020,  <a href="colorlib.com/wp/gallery-website-templates/"colorlib.com</a></li>
+            <li>Admin. “Responsive Design and Accessibility.” Bureau of Internet Accessibility, 27 Jan. 2017, 11:37:10 EST, <a href="www.boia.org/blog/responsive-design-and-accessibility">www.boia.org</a></li>
             <br>
-            <li>“Bootstrap Gallery.” Bootstrap Image Gallery with Responsive Grid, <a href="mobirise.com/bootstrap-gallery/">mobirise.com</a></li>
+            <li>Avila, Jonathan. “What Does Responsive Web Design Have to Do with Accessibility?” Level Access, 11 July 2013,<a href="www.levelaccess.com/what-does-responsive-web-design-have-to-do-with-accessibility/">www.levelaccess.com</a></li>
             <br>
-            <li>Cousins, Carrie. “7 Tips for Better Responsive Photo Galleries.” Design Shack, Design Shack, 31 Aug. 2016, <a href="designshack.net/articles/layouts/photo-gallery-tips/">designshack.net</a></li>
-            <li>Coyier, Chris. “You Can Get Pretty Far in Making a Slider with Just HTML and CSS: CSS-Tricks.” CSS Tricks, 7 May 2019, <a href="css-tricks.com/can-get-pretty-far-making-slider-just-html-css/">css-tricks.com</a></li>
+            <li>Rocheleau, Jake. “Ultimate Guide To Accessible Responsive Web Design.” Vandelay Design, Design Psychology, 16 Aug. 2016, <a href="www.vandelaydesign.com/accessible-responsive-web-design">www.vandelaydesign.com</a></li>
+            <li>Six, Janet M, et al. “Responsive Web Design and Accessibility.” UXmatters, 22 Apr. 2013,<a href="https://www.uxmatters.com/mt/archives/2013/04/responsive-web-design-and-accessibility.php">www.uxmatters.com</a></li>
             <br>
-            <li>“How TO Create Image Gallery Using H TML, CSS and Javascript | Lightbox Gallery.” Youtube: Clever Techie Channel, Youtube.com, 16 Sept. 2018, <a href="https://webaim.org/standards/wcag/">webaim.org</a></li>
+            <li>Utah State University Center for Persons with Disabilities. "Web Content Accessibility Guidelines." WebAIM:Web Accessibility In Mind, Aug 28. 2013,<a href="https://webaim.org/standards/wcag/">webaim.org</a></li>
             <br>
-            <li>Leonov, Ievgen. “5 Ways to Use a Photo Gallery For Your Website.” Cincopa, Nov. 2018, <a href="https://www.cincopa.com/blog/5-ways-to-use-a-photo-gallery-for-website/">cincopa.com</a></li>
+            <li>U.S. General Services Administration. “IT Accessibility Laws and Policies.” IT Accessibility Laws and Policies | Section508.Gov, Nov. 2018, <a href="www.section508.gov/manage/laws-and-policies.">www.section508.gov</a></li>
             <br>
-            <li>Neil, Theresa. “Mobile Design Pattern Gallery: UI Patterns for Smartphone Apps” O'Reilly Media, Inc., 23 Apr. 2014, <a href="https://books.google.com/books?id=Qw5pAwAAQBAJ&l">books.google.com</a></li>
-            <li>sleeky.co.uk blog. “why should your website have an image gallery page?” Sleeky, 2 Apr. 2019, <a href="https://www.sleeky.co.uk/blog/why-should-your-website-have-an-image-gallery-page/">sleeky.co.uk</a></li>
+            <li>w3c_wai. “Tips for Getting Started Developing for Web Accessibility.” Web Accessibility Initiative (WAI), 6 Dec. 2019, <a href="www.w3.org/WAI/tips/developing/">www.w3.org/WAI</a></li>
         </ul>
     </div>
 

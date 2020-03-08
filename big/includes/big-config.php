@@ -25,7 +25,7 @@ $nav1 = array(
     ,
     "index.php" => array("", "BIG", "fa fas fa-cat")
   ,
-    "flexbox.php" => array("", "Flexbox", "fa fa-fw fa-cube")
+    "accessibility.php" => array("", "Accessibility", "fas fa-door-open")
     ,
     "galleries.php" => array("", "Galleries", "fa fa-fw fa-camera-retro")
   ,
@@ -39,7 +39,7 @@ $nav1 = array(
     ,
     "sassy.php" => array("", "SASS vs CSS", "fa fas fa-crow")
   ,
-    "siteapp.php" => array("", "Site vs App", "fa fa-fw fa-html5")
+    "siteapp.php" => array("", "Site vs App", "fab fa-html5")
   ,
     "webcam.php" => array("last", "Web Cam", "fa fa-fw fa-eye")
 );
@@ -60,10 +60,10 @@ switch(THIS_PAGE){
     break;
     
     
-    case "flexbox.php":
-        $title = "Megan's Flexbox Research";
-        $logo = "fa fa-fw fa-cube";
-        $PageID = "Flexbox Research";
+    case "accessibility.php":
+        $title = "Megan's Accessibility Research";
+        $logo = "fas fa-door-open";
+        $PageID = "Accessibility Research";
         $logo_color = ' style="color:#FEEC9D"'; //Color is Canary Yellow
     break;
         
@@ -100,7 +100,7 @@ switch(THIS_PAGE){
         
     case "siteapp.php":
         $title = "Megan's Site vs App Research";
-        $logo = "fa fa-fw fa-html5";
+        $logo = "fab fa-html5";
         $PageID = "What is a Website vs an App?";
     break; 
         
