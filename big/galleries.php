@@ -29,12 +29,12 @@
 </section>
 <section class="column2">
     <div class="picture">
-        <h2 class="source-logo"><i class="fas fa-universal-access"></i></h2>
+        <h2 class="source-logo"><i class="fas fa-photo-video"></i></h2>
     </div>
     <h3> Sources</h3>
     <div class="resources">
         <ul class="sources">
-            <li>Aigars. “28 Top Gallery HTML5 Website Templates 2020.” Colorlib, 19 Feb. 2020,  <a href="colorlib.com/wp/gallery-website-templates/"colorlib.com</a></li>
+            <li>Aigars. “28 Top Gallery HTML5 Website Templates 2020.” Colorlib, 19 Feb. 2020,  <a href="colorlib.com/wp/gallery-website-templates/">colorlib.com</a></li>
             <br>
             <li>“Bootstrap Gallery.” Bootstrap Image Gallery with Responsive Grid, <a href="mobirise.com/bootstrap-gallery/">mobirise.com</a></li>
             <br>
