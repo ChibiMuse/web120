@@ -98,7 +98,7 @@ footer p a:hover {
   background: -o-linear-gradient(top, #ffffff 0%, #ffffff 100%);
   background: -ms-linear-gradient(top, #ffffff 0%, #ffffff 100%);
   background: linear-gradient(to bottom, #ffffff 0%, #ffffff 100%);
-  border-bottom: 2px solid #CA006E;
+  border-bottom: 1px solid #CA006E;
   width: auto;
 }
 #cssmenu:after,
@@ -229,7 +229,7 @@ footer p a:hover {
 }
 #cssmenu ul ul li:hover > a {
   color: #ffffff;
-}
+}.h
 #cssmenu .has-sub .has-sub:hover > ul {
   display: block;
 }
@@ -328,6 +328,10 @@ footer p a:hover {
     grid-area: 1 / 1 / 3 / 13;
     padding: 10px;
     text-align: right;
+    width: 100vw;
+    max-width: 100%;
+    position: relative;
+    left: -10px;
 }
 
 .top-nav {
@@ -419,6 +423,10 @@ footer p a:hover {
     grid-area: 1 / 1 / 3 / 13;
     padding: 10px;
     text-align: right;
+    width: 100vw;
+    max-width: 100%;
+    position: relative;
+    left: -10px;
 }
 
 .top-nav {
@@ -459,6 +467,10 @@ footer p a:hover {
     grid-area: 1 / 1 / 3 / 13;
     padding: 10px;
     text-align: right;
+    width: 100vw;
+    max-width: 100%;
+    position: relative;
+    left: -10px;
 }
 
 .top-nav {
