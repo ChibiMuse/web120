@@ -1,0 +1,390 @@
+/* 
+--------Color Pallette------
+Eerie Black #22001C
+Rubine Red #CA006E
+Tyrian Purple #73003B
+Mexican Pink #E0008D
+Purple(html) #760065
+
+-------------FONTS----------
+font-family: 'Spartan', sans-serif;
+*/
+
+
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Spartan&display=swap');
+
+html {
+    font-family: 'Spartan', sans-serif;
+    background-color: #F5D0E4;
+}
+
+body {
+    background-color: white;
+    color: #22001C;
+    margin: 0px 100px;
+}
+
+h1 {
+    padding-right: 50px;
+}
+
+h2, h3 {
+    color: #E0008D;
+    text-align: center;
+}
+
+.icon{
+    display: none;
+}
+
+
+/* Grid */
+
+
+/*Style 'show menu' label button and hide it by default*/
+.show-menu {
+    font-family: 'Spartan', sans-serif;
+    text-decoration: none;
+    color: white;
+    background:  #73003B;
+    text-align: right;
+    padding: 10px 20px;
+    display: none;
+}
+/*Hide checkbox*/
+input[type=checkbox]{
+    display: none;
+    -webkit-appearance: none;
+}
+/*Show menu when invisible checkbox is checked*/
+input[type=checkbox]:checked ~ .top-nav{
+    display: block;
+}
+
+footer p a {
+    color: white;
+    text-decoration: none;
+}
+
+footer p a:hover {
+    color: #E0008D;
+    text-decoration: underline;
+}
+
+
+/* Base Styles */
+#cssmenu ul,
+#cssmenu li,
+#cssmenu span,
+#cssmenu a {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+#cssmenu {
+  line-height: 1;
+  border-radius: 5px 5px 0 0;
+  -moz-border-radius: 5px 5px 0 0;
+  -webkit-border-radius: 5px 5px 0 0;
+  background: #ffffff;
+  background: -moz-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #ffffff));
+  background: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+  background: -o-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+  background: -ms-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+  background: linear-gradient(to bottom, #ffffff 0%, #ffffff 100%);
+  border-bottom: 2px solid #CA006E;
+  width: auto;
+}
+#cssmenu:after,
+#cssmenu ul:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+#cssmenu a {
+  background: #ffffff;
+  background: -moz-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #ffffff));
+  background: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+  background: -o-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+  background: -ms-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+  background: linear-gradient(to bottom, #ffffff 0%, #ffffff 100%);
+  color: #ffffff;
+  font-family: "Spartan", Helvetica, Arial, Verdana, sans-serif;
+  padding: 19px 20px;
+  text-decoration: none;
+}
+
+#cssmenu a:not(.icon){
+    display: block;
+}
+#cssmenu ul {
+  list-style: none;
+}
+#cssmenu > ul > li {
+  display: inline-block;
+  float: left;
+  margin: 0;
+}
+#cssmenu.align-center {
+  text-align: center;
+}
+#cssmenu.align-center > ul > li {
+  float: none;
+}
+#cssmenu.align-center ul ul {
+  text-align: left;
+}
+#cssmenu.align-right > ul {
+  float: right;
+}
+#cssmenu.align-right ul ul {
+  text-align: right;
+}
+#cssmenu > ul > li > a {
+  color: #000000;
+  font-size: 12px;
+}
+#cssmenu > ul > li:hover:after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #CA006E;
+  margin-left: -10px;
+}
+#cssmenu > ul > li:first-child > a {
+  border-radius: 5px 0 0 0;
+  -moz-border-radius: 5px 0 0 0;
+  -webkit-border-radius: 5px 0 0 0;
+}
+#cssmenu.align-right > ul > li:first-child > a,
+#cssmenu.align-center > ul > li:first-child > a {
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+}
+#cssmenu.align-right > ul > li:last-child > a {
+  border-radius: 0 5px 0 0;
+  -moz-border-radius: 0 5px 0 0;
+  -webkit-border-radius: 0 5px 0 0;
+}
+#cssmenu > ul > li.active > a,
+#cssmenu > ul > li:hover > a {
+  color: #000000;
+  box-shadow: inset 0 0 3px #F5D0E4;
+  -moz-box-shadow: inset 0 0 3px #F5D0E4;
+  -webkit-box-shadow: inset 0 0 3px #F5D0E4;
+  background: #f2f2f2;
+  background: -moz-linear-gradient(top, #ffffff 0%, #f2f2f2 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #f2f2f2));
+  background: -webkit-linear-gradient(top, #ffffff 0%, #f2f2f2 100%);
+  background: -o-linear-gradient(top, #ffffff 0%, #f2f2f2 100%);
+  background: -ms-linear-gradient(top, #ffffff 0%, #f2f2f2 100%);
+  background: linear-gradient(to bottom, #ffffff 0%, #f2f2f2 100%);
+}
+#cssmenu .has-sub {
+  z-index: 1;
+}
+#cssmenu .has-sub:hover > ul {
+  display: block;
+}
+#cssmenu .has-sub ul {
+  display: none;
+  position: absolute;
+  width: 200px;
+  top: 100%;
+  left: 0;
+}
+#cssmenu.align-right .has-sub ul {
+  left: auto;
+  right: 0;
+}
+#cssmenu .has-sub ul li {
+  *margin-bottom: -1px;
+}
+#cssmenu .has-sub ul li a {
+  background: #CA006E;
+  border-bottom: 1px dotted #73003B;
+  font-size: 11px;
+  filter: none;
+  display: block;
+  line-height: 120%;
+  padding: 1em;
+  color: #ffffff;
+}
+#cssmenu .has-sub ul li:hover a {
+  background: #73003B;
+}
+#cssmenu ul ul li:hover > a {
+  color: #ffffff;
+}
+#cssmenu .has-sub .has-sub:hover > ul {
+  display: block;
+}
+#cssmenu .has-sub .has-sub ul {
+  display: none;
+  position: absolute;
+  left: 100%;
+  top: 0;
+}
+#cssmenu.align-right .has-sub .has-sub ul,
+#cssmenu.align-right ul ul ul {
+  left: auto;
+  right: 100%;
+}
+#cssmenu .has-sub .has-sub ul li a {
+  background: #73003B;
+  border-bottom: 1px dotted #73003B;
+}
+#cssmenu .has-sub .has-sub ul li a:hover {
+  background: #A55C82;
+}
+#cssmenu ul ul li.last > a,
+#cssmenu ul ul li:last-child > a,
+#cssmenu ul ul ul li.last > a,
+#cssmenu ul ul ul li:last-child > a,
+#cssmenu .has-sub ul li:last-child > a,
+#cssmenu .has-sub ul li.last > a {
+  border-bottom: 0;
+}
+
+
+@media screen and (max-width: 1139px){
+    body{
+        margin:0;
+    }
+    
+/*Display 'show menu' link*/
+    .show-menu {
+        display:block;
+    }
+        nav.top-nav{
+        width: 100vw;
+        max-width: 100%;
+        margin-right: 2em;
+    }
+
+ nav.top-nav ul {
+        position: relative;
+        display: block;
+        width: 100vw;
+        max-width: 100%;
+    }
+
+
+   /*Make all menu links full width*/
+   nav.top-nav ul li, nav.top-nav li a {
+        width: 100vw;
+        max-width: 100%;
+        margin-right: 4em;
+    }
+    
+#cssmenu .has-sub ul {
+  display: none;
+  position: relative;
+    width: 100vw;
+    max-width: 100%
+    }
+
+    
+    .has-sub ul li a, .has-sub ul li, .has-sub ul {
+        position: relative;
+        width: 100vw;
+        max-width: 100%;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    
+    
+.wrapper {
+    display: inline-grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, auto);
+    margin: 0;
+}
+
+.header {
+    grid-area: 1 / 1 / 3 / 13;
+    padding: 10px;
+    text-align: right;
+}
+
+.top-nav {
+    grid-area: 3 / 1 / 13 / 1;
+}
+
+.column1 {
+    grid-area: 4 / 3 / 11 / 8;
+    padding: 15px;
+}
+
+.column2 {
+    grid-area: 4 / 8 / 11 / 12;
+    padding: 15px;
+
+}
+
+
+.footer {
+    grid-area: 13 / 1 / auto / 13;
+    padding: 10px;
+    text-align: center;
+    background-color: #73003B;
+    color: white;
+}
+
+    .top-nav{
+        display: none;
+    }
+    
+    }
+
+@media screen and (min-width: 1140px){
+    
+.wrapper {
+    display: inline-grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 7.7vh);
+    margin: 0;
+}
+
+.header {
+    grid-area: 1 / 1 / 3 / 13;
+    padding: 10px;
+    text-align: right;
+}
+
+.top-nav {
+    grid-area: 3 / 1 / 4 / 13;
+}
+
+.column1 {
+    grid-area: 4 / 3 / 11 / 8;
+    padding: 15px;
+}
+
+.column2 {
+    grid-area: 4 / 8 / 11 / 12;
+    padding: 15px;
+
+}
+
+
+.footer {
+    grid-area: 13 / 1 / auto / 13;
+    padding: 10px;
+    text-align: center;
+    background-color: #73003B;
+    color: white;
+}
+    
+    }
