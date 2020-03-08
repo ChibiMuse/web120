@@ -1,7 +1,7 @@
 <?php include "includes/header.php";?>
 <section class="column1">
     <h2> Client Questionnaire</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p> Feedback helps me improve services and better provide for my customers by helping me focus on what's important to you, spend more time on what needs improvement, and keep doing what is working well. </p>
     
     <?php
         /*

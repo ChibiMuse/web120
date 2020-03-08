@@ -38,6 +38,10 @@ h2, h3 {
     display: none;
 }
 
+div.form {
+    margin: 5px;
+    padding-top: 1em;
+}
 
 /* Grid */
 
@@ -53,12 +57,12 @@ h2, h3 {
     display: none;
 }
 /*Hide checkbox*/
-input[type=checkbox]{
+input[id="show-menu"]{
     display: none;
     -webkit-appearance: none;
 }
 /*Show menu when invisible checkbox is checked*/
-input[type=checkbox]:checked ~ .top-nav{
+input[id="show-menu"]:checked ~ .top-nav{
     display: block;
 }
 
@@ -422,18 +426,18 @@ footer p a:hover {
 }
 
 .column1 {
-    grid-area: 4 / 3 / 11 / 8;
+    grid-area: 4 / 3 / 19 / 8;
     padding: 15px;
 }
 
 .column2 {
-    grid-area: 4 / 8 / 11 / 12;
+    grid-area: 4 / 8 / auto / 12;
     padding: 15px;
 
 }
 
 .footer {
-    grid-area: 13 / 1 / auto / 13;
+    grid-area: 20 / 1 / auto / 13;
     padding: 10px;
     text-align: center;
     background-color: #73003B;
@@ -462,7 +466,7 @@ footer p a:hover {
 }
 
 .column1 {
-    grid-area: 4 / 3 / 11 / 8;
+    grid-area: 4 / 3 / 19 / 8;
     padding: 15px;
 }
 
@@ -474,7 +478,7 @@ footer p a:hover {
 
 
 .footer {
-    grid-area: 13 / 1 / auto / 13;
+    grid-area: 20 / 1 / auto / 13;
     padding: 10px;
     text-align: center;
     background-color: #73003B;
