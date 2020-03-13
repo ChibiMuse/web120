@@ -25,6 +25,8 @@ $nav1 = array(
     ,
     "index.php" => array("", "BIG", "fa fas fa-cat")
   ,
+     "flexbox.php" => array("", "Flexbox", "fa fa-fw fa-cube")
+  ,
     "accessibility.php" => array("", "Accessibility", "fas fa-door-open")
     ,
     "galleries.php" => array("", "Galleries", "fa fa-fw fa-camera-retro")
@@ -59,6 +61,11 @@ switch(THIS_PAGE){
         $PageID = "Megan's Web Dev Examples";
     break;
     
+    case "flexbox.php":
+        $title = "Megan's Flexbox Research";
+        $logo = "fa fa-fw fa-cube";
+        $PageID = "Flexbox";
+    break;
     
     case "accessibility.php":
         $title = "Megan's Accessibility Research";
