@@ -31,7 +31,7 @@
 
 <p>Hopefully this guide helps clear up a bit about CSS Preprocessors and give you some good starting points in your own learning and research. As always, feedback is always welcome; feedback is how I can make sure my information is accurate and up to date and how more helpful resources can be added. Thank you!</p>
 
-<p><i>Note: A CSS Preprocessor can help keep code more organized and DRY but it definitely doesn’t take the place of CSS best practices. I’ve included a resource that lays out how you can write better CSS code and the same guidelines can apply whether you write with vanilla CSS or using a CSS Preprocessing script.</i></p>
+<p><i>Note: A CSS Preprocessor can help keep code more organized and DRY but it definitely doesn’t take the place of CSS best practices. I’ve included a resource that lays out how you can write better CSS code and the same guidelines can apply whether you write with vanilla CSS or using a CSS Preprocessing script.</i><a href="https://scalablecss.com/stop-writing-messy-css/">How to Stop Writing Messy &amp; Unscalable CSS</a></p>
 
 </section>
 <section class="column2">
