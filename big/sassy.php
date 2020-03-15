@@ -18,13 +18,13 @@
 
 <p>When trying to decide what to use for myself, I found myself confused on what the differences are and now I want to try to dispel some of that murki-ness for others that might be in a similar state of conflicting-information-overload.</p>
 
-    <h3>SASS:</h3>h3>
+<p><strong>SASS:</strong></p>
 <p>Sass gets confusing. I asked about sass and responses and results were often like “You mean SCSS?” or “Sassy CSS”. Sassy CSS? Scss? What?</p>
 <p>Sass is the preprocessing script. It is written using Ruby on Rails (you do not need to know any Ruby to start learning Sass) and the confusion starts usually because it has two different syntax types you can use with it. </p>
 <p>First (and oldest) is Sass (style.sass). Sass files use line breaks and indentation for meaning and separation rather than brackets and semicolons.</p>
 <p>Second is Sassy CSS (style.scss). SCSS files use the same syntax as CSS with brackets and semicolons. As such, every CSS file is a valid SCSS file and can be run through the compiler without problem.</p>
 
-<h3>LESS:</h3>
+<p><strong>LESS:</strong></p>
 <p>Like Sass, Less is the pre-processing script. It is written using Javascript (you do not need to know any Javascript to learn Less). This is where I started to see recommendations that you should use Less since it can be run client-side in the browser. 1) Think carefully before doing this as this will affect browser performance. If you aren’t doing dynamic styling, you should just run your code through a compiler and then upload it anyways, and dynamic styling should probably be done server-side anyways. HOWEVER, the client-side aspect could be useful for testing if you really find running your code through a compiler too much effort.</p>
 
 <p>In the end, even if you have a small project, it might be worth it to pick-up a CSS Preprocessor and play around with it and see what you think. Try different ones or look through the documentation and see which one might appeal most to you. There really doesn’t seem to be a right answer. Maybe you just want to play with CSS variables for now. You do you.</p>
@@ -35,6 +35,9 @@
 
 </section>
 <section class="column2">
+    <div class="picture">
+        <h2 class="source-logo"><i class="fas fa-star"></i></h2>
+    </div>
     <h3> Sources</h3>
     <div class="resources">
         <ul class="sources">

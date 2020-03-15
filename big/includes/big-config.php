@@ -39,9 +39,7 @@ $nav1 = array(
   ,
     "youtube.php" => array("last", "YouTube", "fa fa-fw fa-youtube-square")
     ,
-    "sassy.php" => array("", "SASS vs CSS", "fa fas fa-crow")
-  ,
-    "siteapp.php" => array("", "Site vs App", "fab fa-html5")
+    "sassy.php" => array("", "SASS", "fa fas fa-crow")
   ,
     "webcam.php" => array("last", "Web Cam", "fa fa-fw fa-eye")
 );
@@ -102,14 +100,8 @@ switch(THIS_PAGE){
     case "sassy.php":
         $title = "Megan's SASS Research";
         $logo = "fa fas fa-crow";
-        $PageID = "SASS vs SCSS vs CSS";
+        $PageID = "CSS Preprocessors";
     break;
-        
-    case "siteapp.php":
-        $title = "Megan's Site vs App Research";
-        $logo = "fab fa-html5";
-        $PageID = "What is a Website vs an App?";
-    break; 
         
     case "webcam.php":
         $title = "Webcams";

@@ -25,11 +25,11 @@
 <section class="column2">
     <h3> Design Cycle Resources</h3>
     <div class="resources">
-        <ul>
-            <li>Resource 1</li>
-            <li>Resource 2</li>
-            <li>Resource 3</li>
-        </ul>
+        <a href="https://www.smashingmagazine.com/2011/06/following-a-web-design-process/"><strong>Following a Web Design Process</strong> - by Luke Reimer</a>
+        <br>
+        <a href="https://medium.com/@customweb/web-development-life-cycle-by-a-professional-website-design-development-company-5bf86c9039a5"><strong>Web Development Life Cycle by a Professional Website Design & Development Company</strong>- by Custom Web Development</a>
+        <br>
+        <a href="https://www.codementor.io/@nicolesaidy/design-tutorial-5-steps-for-a-successful-website-design-arhjcudcq"><strong>Design Tutorial:5 Steps for a Successful Website Design</strong> - by Nicole Saidy</a>
     </div>
 </section>
 <?php include "includes/footer.php";?>
