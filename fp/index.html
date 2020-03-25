@@ -7,27 +7,77 @@
     <title>Press Start</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/nav.css"> 
+    <link rel="stylesheet" href="css/nav.css">
+<!-- icons used are from FA Free: https://fontawesome.com/license/free-->
     
 </head>
 <body>
 <header>
-    <nav>
+    <h1>PRESS START</h1>
+    <nav id="main-nav" class="site-nav">
+        <ul id="menu-buttons">
+            <li id="select-button" class="select-start">
+            </li>
+            <li id="start-button" class="select-start expand">
+                <ul>
+                    <li><a href="content.php">Content</a></li>
+                    <li><a href="timeline.php">Timeline</a></li>
+                    <li><a href="contact.php">Contact</a></li>
+                </ul>
+            </li>
+        </ul>
     </nav>
 </header>
 <aside aria-label="search and topic outlines" class="left-side-bar">
+    <div class="cross-button">
+        <form role="search">
+            <input type="search" aria-label="search text" placeholder="Search..." class="article-search">
+        </form>
+        <ul class="article-title-list">
+            <li><a href="#">Lorem Ipsum</a></li>
+            <li><a href="#">Cursus in Hac</a></li>
+            <li><a href="#">Integer Quis Auctor Elit</a></li>
+            <li><a href="#">Suscipit Tellus Mauris</a></li>
+            <li><a href="#">Consectetur Adipiscing Elit</a></li>
+            <li><a href="#">Tempor Incididunt</a></li>
+        </ul>
+    </div>
 </aside>
 <main class="center-content">
     <article class="topics">
         <article>
+            <img class="article-pic" src="images/gamepad-solid.svg" alt="game controller">
+            <h2 class="article-title">Lorem Ipsum</h2>
+            <p class="article-blurb">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ipsum dolor sit amet consectetur adipiscing elit ut aliquam purus.</p>
         </article>
         <article>
+            <img class="article-pic" src="images/ghost-solid.svg" alt="cartoonish ghost">
+            <h2 class="article-title">Cursus in Hac</h2>
+            <p class="article-blurb">Nunc pulvinar sapien et ligula ullamcorper. Dolor morbi non arcu risus quis varius quam.</p>
         </article>
         <article>
+            <img class="article-pic" src="images/heart-regular.svg" alt="empty heart">
+            <h2 class="article-title">Integer Quis Auctor Elit</h2>
+            <p class="article-blurb">Vitae et leo duis ut. Est ante in nibh mauris. Tristique et egestas quis ipsum suspendisse ultrices. Vitae auctor eu augue ut lectus arcu bibendum at varius.</p>
+        </article>
+        <article>
+            <img class="article-pic" src="images/scroll-solid.svg" alt="paper scroll">
+            <h2 class="article-title">Suscipit Tellus Mauris a: Lorem sit</h2>
+            <p class="article-blurb">Nulla pellentesque dignissim enim sit amet. At risus viverra adipiscing at in tellus integer. Fringilla est ullamcorper eget nulla. Varius duis at consectetur lorem donec massa sapien faucibus et.</p>
+        </article>
+        <article>
+            <img class="article-pic" src="images/dice-solid.svg" alt="six-sided dice">
+            <h2 class="article-title">Consectetur Adipiscing Elit, Sed Do Eiusmod</h2>
+            <p class="article-blurb">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tincidunt augue interdum velit euismod in pellentesque massa placerat. </p>
+        </article>
+        <article>
+            <img class="article-pic" src="images/chess-board-solid.svg" alt="checkered pattern">
+            <h2 class="article-title">Tempor Incididunt ut Labore</h2>
+            <p class="article-blurb">Est placerat in egestas erat imperdiet sed. Ornare arcu dui vivamus arcu felis bibendum ut. Facilisis magna etiam tempor orci eu lobortis elementum nibh.</p>
         </article>
     </article>
 </main>
-<aside aria-label="A B Buttons">
+<aside aria-label="A B Buttons" class="right-side-bar">
 </aside>
 <footer>
 </footer>
